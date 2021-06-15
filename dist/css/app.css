@@ -1,1 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Lato", sans-serif;
+  color: #554e9e;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+nav {
+  background-color: #FEFFFE;
+  padding: 0 0.3rem;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo > img {
+  height: 100px;
+}
+nav .right_menu {
+  display: flex;
+}
+nav .right_menu .selected {
+  background-color: #fe6601;
+}
+nav .right_menu .menu_el {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 15%;
+  padding: 1rem;
+}
+nav .right_menu .menu_el img {
+  height: 30px;
+  margin: 0.5rem;
+}
