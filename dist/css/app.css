@@ -17,21 +17,24 @@ body {
 nav {
   background-color: #FEFFFE;
   padding: 0 0.3rem;
+}
+nav .navbar_menu {
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-nav .logo > img {
+nav .navbar_menu .logo > img {
   height: 100px;
 }
-nav .right_menu {
+nav .navbar_menu .right_menu {
   display: flex;
 }
-nav .right_menu .selected {
+nav .navbar_menu .right_menu .active {
   background-color: #fe6601;
+  color: #FEFFFE;
 }
-nav .right_menu .menu_el {
+nav .navbar_menu .right_menu .menu_el {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +43,7 @@ nav .right_menu .menu_el {
   width: 15%;
   padding: 1rem;
 }
-nav .right_menu .menu_el img {
+nav .navbar_menu .right_menu .menu_el img {
   height: 30px;
   margin: 0.5rem;
 }

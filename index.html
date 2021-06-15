@@ -18,21 +18,32 @@
 <body>
     <div id="app">
         <header>
-            <div class="container">
-                <nav>
-                    <div class="logo">
-                        <img src="./dist/img/navbar/logo.png" alt="">
-                    </div>
-
-                    <div class="right_menu">
-                        <div :class="!index ? 'menu_el selected' : 'menu_el'" v-for="(items, index) in navbarMenu">
-                            <img :src="items.img_path" alt="">
-                            <span>{{items.name}}</span>
+            <nav>
+                <div class="container">
+                    <div class="navbar_menu">
+                        <div class="logo">
+                            <img src="./dist/img/navbar/logo.png" alt="">
                         </div>
 
+                        <div class="right_menu">
+                            <div @click="selected" class="menu_el" v-for="(items, index) in navbarMenu"
+                                v-if="index!=navbarIndex" :data-number="index">
+                                <img :src="items.img_path" alt="">
+                                <span>{{items.name}}</span>
+                            </div>
+                            <!-- nel caso in cui sia l'elemento attivo -->
+                            <div v-else class="menu_el active">
+                                <img :src="items.img_path_selected" alt="">
+                                <span>{{items.name}}</span>
+                            </div>
+                        </div>
                     </div>
-            </div>
+                </div>
             </nav>
+
+            <div class="header_slider">
+
+            </div>
         </header>
     </div>
     <!-- vue csn -->

@@ -2,6 +2,7 @@
 const app = new Vue({
     el: '#app',
     data: {
+        navbarIndex: 0,
         navbarMenu: [
             {
                 name: 'Home',
@@ -43,7 +44,9 @@ const app = new Vue({
 
     },
     methods: {
-
+        selected: function selected(e) {
+            return this.navbarIndex = (e.currentTarget.getAttribute('data-number'));
+        },
     },
     mounted() {
 

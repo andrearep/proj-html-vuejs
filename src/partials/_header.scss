@@ -1,34 +1,40 @@
 nav{
     background-color: $primary_body_bg_color;
     padding: 0 0.3rem;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .logo>img{
+    
+    .navbar_menu{
         height: 100px;
-    }
-
-    .right_menu{
         display: flex;
-        .selected{
-            background-color: $orange;
-        }
-       .menu_el{
-        display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        flex-direction: column;
-        height: 100%;
-        width: 15%;
-        padding:1rem;
-        img{
-            height: 30px;
-            margin: 0.5rem;
+        .logo>img{
+           height: 100px;
         }
-       }
-        
-    }
 
+        .right_menu{
+            display: flex;
+            .active{
+            background-color: $orange;
+            color:$primary_body_bg_color
+            }
+            .menu_el{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100%;
+                width: 15%;
+                padding:1rem;
+                img{
+                    height: 30px;
+                    margin: 0.5rem;
+                }
+            }
+        
+        }
+    }
+}
+
+.header_slider{
+    background-image: url(../img/slider_header/);
 }

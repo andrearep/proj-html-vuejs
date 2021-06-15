@@ -10,6 +10,7 @@
 var app = new Vue({
   el: '#app',
   data: {
+    navbarIndex: 0,
     navbarMenu: [{
       name: 'Home',
       img_path: './dist/img/navbar/home.png',
@@ -40,7 +41,11 @@ var app = new Vue({
       img_path_selected: './dist/img/navbar/envelope-2.png'
     }]
   },
-  methods: {},
+  methods: {
+    selected: function selected(e) {
+      return this.navbarIndex = e.currentTarget.getAttribute('data-number');
+    }
+  },
   mounted: function mounted() {}
 });
 
