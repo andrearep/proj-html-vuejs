@@ -1,0 +1,16 @@
+#staff{
+    .text_classes{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        .left_span{
+            width: 50%;
+            font-size: 1.8rem;
+        }
+        .right_span{
+            width: 48.5%;
+            color:$grey_text;
+        }
+    }
+}

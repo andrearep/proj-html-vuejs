@@ -19,6 +19,7 @@ button {
 .container {
   width: 1000px;
   margin: auto;
+  padding: 2.5rem 0;
 }
 
 .flex {
@@ -53,6 +54,9 @@ button {
 nav {
   background-color: #FEFFFE;
   padding: 0 0.3rem;
+}
+nav .container {
+  padding: 0;
 }
 nav .navbar_menu {
   height: 100px;
@@ -145,9 +149,6 @@ nav .navbar_menu .right_menu .menu_el img {
   color: #FEFFFE;
 }
 
-#welcome .container {
-  padding: 2.5rem 0;
-}
 #welcome .container .welcome_cards {
   display: flex;
   justify-content: space-between;
@@ -452,4 +453,19 @@ nav .navbar_menu .right_menu .menu_el img {
 }
 #class .section_footer2 img {
   width: 25%;
+}
+
+#staff .text_classes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+#staff .text_classes .left_span {
+  width: 50%;
+  font-size: 1.8rem;
+}
+#staff .text_classes .right_span {
+  width: 48.5%;
+  color: #C6C5C5;
 }
