@@ -27,6 +27,9 @@ button{
     width: 1000px;
     margin: auto;
 }
+.flex{
+    display: flex;
+}
 
 @mixin button {
     border: 1px solid $primary_body_bg_color;

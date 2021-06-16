@@ -57,7 +57,8 @@ var app = new Vue({
       img_path2: './dist/img/welcome_fable/clock_alt.png',
       title2: 'Full Day Sessions',
       paragraph2: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, ex!'
-    }]
+    }],
+    slider_img: ['./dist/img/welcome_fable/welcome_slider/gallery_01-690x506.jpg', './dist/img/welcome_fable/welcome_slider/gallery_02-690x506.jpg', './dist/img/welcome_fable/welcome_slider/gallery_03-690x506.jpg']
   },
   methods: {
     selected: function selected(e) {

@@ -21,6 +21,10 @@ button {
   margin: auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .section_title {
   display: flex;
   flex-direction: column;
@@ -208,4 +212,45 @@ nav .navbar_menu .right_menu .menu_el img {
   color: #C6C5C5;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
+}
+#welcome .right_side {
+  width: 50%;
+}
+#welcome .right_side .slider {
+  height: 400px;
+}
+#welcome .right_side .slider .main_image {
+  display: flex;
+  height: 300px;
+  position: relative;
+}
+#welcome .right_side .slider .main_image .previous {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0.2rem;
+  background-color: #fe6601;
+}
+#welcome .right_side .slider .main_image .next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  padding: 0.2rem;
+  background-color: #fe6601;
+}
+#welcome .right_side .slider .main_image .main {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+#welcome .right_side .slider .small_images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#welcome .right_side .slider .small_images div {
+  width: 31.5%;
+}
+#welcome .right_side .slider .small_images div .small_img {
+  width: 100%;
+  height: 100px;
 }

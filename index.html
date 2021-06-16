@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="bg_secondary">
-                    <div class="container">
+                    <div class="container flex">
                         <div class="left_side">
                             <div class="title_mission">
                                 <button @click="welcomeSelect" :class="!welcomeIndex ? 'selected' : '' ">
@@ -176,6 +176,23 @@
 
                             </div>
 
+                        </div>
+                        <div class="right_side">
+                            <div class="slider">
+                                <div class="main_image">
+                                    <img class="previous" src="./dist/img/common/slider_previous.png" alt="">
+                                    <img class="next" src="./dist/img/common/slider_next.png" alt="">
+                                    <img class="main"
+                                        src="./dist/img/welcome_fable/welcome_slider/gallery_01-690x506.jpg" alt="">
+
+                                </div>
+                                <div class="small_images">
+                                    <div v-for="img in slider_img">
+                                        <img :src="img" alt="" class="small_img" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
             </section>
         </main>
