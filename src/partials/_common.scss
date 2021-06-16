@@ -22,3 +22,24 @@ body{
     margin: auto;
 }
 
+@mixin carousel_selector{
+    
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    div{
+        display: flex;
+        position: relative;
+        div{
+            height: 10px;
+            width: 30px;
+            border: 2px solid #fe6601;
+            margin: 0.3rem ;
+        }
+        .selected{
+            bottom:10px;
+        }
+    }
+   
+
+}

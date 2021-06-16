@@ -47,3 +47,41 @@ nav .navbar_menu .right_menu .menu_el img {
   height: 30px;
   margin: 0.5rem;
 }
+
+.header_slider {
+  height: 450px;
+  width: 100%;
+  background-image: url("../img/slider_header/slider_slide3_background.png");
+  background-size: contain;
+  position: relative;
+}
+.header_slider .lego_img {
+  height: 80px;
+  position: absolute;
+  bottom: 15%;
+  right: 20%;
+}
+.header_slider .macchina_img {
+  height: 130px;
+  position: absolute;
+  bottom: 15%;
+  right: 55%;
+}
+.header_slider .position_carousel_selectors {
+  position: absolute;
+  bottom: 5%;
+  right: 50%;
+}
+.header_slider .position_carousel_selectors div {
+  display: flex;
+  position: relative;
+}
+.header_slider .position_carousel_selectors div div {
+  height: 10px;
+  width: 30px;
+  border: 2px solid #fe6601;
+  margin: 0.3rem;
+}
+.header_slider .position_carousel_selectors div .selected {
+  bottom: 10px;
+}

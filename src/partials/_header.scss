@@ -36,5 +36,28 @@ nav{
 }
 
 .header_slider{
-    background-image: url(../img/slider_header/);
+    height: 450px;
+    width: 100%;
+    background-image: url("../img/slider_header/slider_slide3_background.png");
+    background-size:contain;
+    position:relative;
+
+    .lego_img{
+        height: 80px;
+        position: absolute;
+        bottom: 15%;
+        right: 20%;
+    }
+
+    .macchina_img{
+        height: 130px;
+        position: absolute;
+        bottom: 15%;
+        right: 55%;
+    }
+
+    .position_carousel_selectors{
+        @include carousel_selector;
+    }
+
 }
