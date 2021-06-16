@@ -235,7 +235,6 @@ nav .navbar_menu .right_menu .menu_el img {
   position: absolute;
   right: 0;
   top: 50%;
-  padding: 0.2rem;
   background-color: #fe6601;
 }
 #welcome .right_side .slider .main_image .main {
@@ -253,4 +252,60 @@ nav .navbar_menu .right_menu .menu_el img {
 #welcome .right_side .slider .small_images div .small_img {
   width: 100%;
   height: 100px;
+}
+#welcome .section_footer {
+  background-image: url("../img/welcome_fable/parallax_01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#welcome .section_footer .cards {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#welcome .section_footer .cards .card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 1rem;
+  color: #C6C5C5;
+}
+#welcome .section_footer .cards .card > * {
+  margin-bottom: 1.5rem;
+}
+#welcome .section_footer .cards .card .number {
+  font-weight: 300;
+  padding: 3rem 1rem;
+  font-size: 3rem;
+  border-radius: 100%;
+  border: 1px solid #C6C5C5;
+}
+#welcome .section_footer .cards .card .title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+#welcome .section_footer .cards .position_carousel_selectors {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  bottom: 0;
+}
+#welcome .section_footer .cards .position_carousel_selectors div {
+  display: flex;
+  position: relative;
+}
+#welcome .section_footer .cards .position_carousel_selectors div div {
+  height: 10px;
+  width: 30px;
+  border: 2px solid #fe6601;
+  margin: 0.3rem;
+}
+#welcome .section_footer .cards .position_carousel_selectors div .selected {
+  bottom: 10px;
+}
+#welcome .section_footer .cards .position_carousel_selectors div div {
+  border: 2px solid #C6C5C5;
 }

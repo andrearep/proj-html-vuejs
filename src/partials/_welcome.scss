@@ -100,7 +100,6 @@
                     position: absolute;
                     right: 0;
                     top:50%;
-                    padding:0.2rem ;
                     background-color: $orange;
                 }
                 
@@ -124,4 +123,53 @@
             }
         }
     }
+
+    .section_footer{
+        background-image: url("../img/welcome_fable/parallax_01.jpg");
+        background-size: cover;
+        background-position: center;
+        
+            .cards{
+                position: relative;
+                width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .card{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                width: 20%;
+                padding:1rem;
+                color: $grey_text;
+                &>*{
+                    margin-bottom: 1.5rem;
+                }
+                .number{
+                    font-weight: 300;
+                    padding: 3rem 1rem;
+                    font-size: 3rem;
+                    border-radius: 100%;
+                    border: 1px solid$grey_text;
+                }
+                .title{
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                }
+                
+            }
+            .position_carousel_selectors{
+                @include carousel_selector;
+                bottom:0;
+                div{
+                    div{
+                       border: 2px solid $grey_text;
+
+                    }
+                }
+            }
+        
+        }
+            
+        }
+    
 }
