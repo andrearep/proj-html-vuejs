@@ -100,8 +100,9 @@ nav .navbar_menu .right_menu .menu_el img {
 }
 .header_slider .position_carousel_selectors {
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   right: 50%;
+  transform: translate(50%, 50%);
 }
 .header_slider .position_carousel_selectors div {
   display: flex;

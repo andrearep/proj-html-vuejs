@@ -55,7 +55,7 @@ const app = new Vue({
             {
 
                 content: 'Our philosophy is learning through play as we offer a stimulating enviroment for children!',
-                img_path1: './dist/img/welcome_fable/clock_alt.png',
+                img_path1: './dist/img/welcome_fable/diagram_alt.png',
                 title1: 'Full Day Sessions',
                 paragraph1: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, ex!',
                 img_path2: './dist/img/welcome_fable/clock_alt.png',
