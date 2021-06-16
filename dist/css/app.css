@@ -9,6 +9,13 @@ body {
   color: #554e9e;
 }
 
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+}
+
 .container {
   width: 1000px;
   margin: auto;
@@ -132,34 +139,46 @@ nav .navbar_menu .right_menu .menu_el img {
   color: #FEFFFE;
 }
 
-.container {
+#welcome .container {
   padding: 2.5rem 0;
 }
-.container .welcome_cards {
+#welcome .container .welcome_cards {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
 }
-.container .welcome_cards .card {
+#welcome .container .welcome_cards .card {
   width: 24%;
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 1.3rem;
 }
-.container .welcome_cards .card > * {
+#welcome .container .welcome_cards .card > * {
   margin-bottom: 1rem;
 }
-.container .welcome_cards .card .img {
+#welcome .container .welcome_cards .card .img {
   padding: 3.5rem 0;
   border-radius: 100%;
 }
-.container .welcome_cards .card .orange {
+#welcome .container .welcome_cards .card .orange {
   background-color: #fe6601;
 }
-.container .welcome_cards .card .purple {
+#welcome .container .welcome_cards .card .purple {
   background-color: #554e9e;
 }
-.container .welcome_cards .card span {
+#welcome .container .welcome_cards .card span {
   color: #C6C5C5;
+}
+#welcome .left_side {
+  width: 50%;
+  padding-right: 1rem;
+}
+#welcome .left_side .title_mission button {
+  padding: 1rem 2rem;
+  color: #C6C5C5;
+}
+#welcome .left_side .title_mission .selected {
+  background-color: #fe6601;
+  color: #FEFFFE;
 }

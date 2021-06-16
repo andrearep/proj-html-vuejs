@@ -39,6 +39,17 @@ const app = new Vue({
                 img_path: './dist/img/navbar/envelope.png',
                 img_path_selected: './dist/img/navbar/envelope-2.png'
             },
+        ],
+        welcomeIndex: 0,
+        welcomeText: [
+            {
+
+                content: 'Our philosophy is learning through play as we offer a stimulating enviroment for children',
+            },
+            {
+
+                content: 'Our philosophy is learning through play as we offer a stimulating enviroment for children!',
+            }
         ]
 
 
@@ -47,6 +58,16 @@ const app = new Vue({
         selected: function selected(e) {
             return this.navbarIndex = (e.currentTarget.getAttribute('data-number'));
         },
+        welcomeSelect: function welcomeSelect(e) {
+            console.log(e.currentTarget.getAttribute('class'));
+            if (e.currentTarget.getAttribute('class') == 'selected') {
+                return false;
+            } else if (this.welcomeIndex) {
+                return this.welcomeIndex--;
+            } else return this.welcomeIndex++;
+        }
+
+
     },
     mounted() {
 

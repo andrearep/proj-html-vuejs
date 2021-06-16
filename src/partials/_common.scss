@@ -7,6 +7,12 @@ body{
     font-family: 'Lato', sans-serif;
     color:$primary_text_color
 }
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+}
 @mixin reset_list {
     li{
         list-style: none;

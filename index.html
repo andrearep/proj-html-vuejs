@@ -118,6 +118,13 @@
                 <div class="bg_secondary">
                     <div class="container">
                         <div class="left_side">
+                            <div class="title_mission">
+                                <button @click="welcomeSelect" :class="!welcomeIndex ? 'selected' : '' ">
+                                    Overview</button>
+                                <button @click="welcomeSelect" :class="welcomeIndex ? 'selected' : '' "> Our
+                                    Mission</button>
+                            </div>
+
 
                         </div>
                         <div class="right_side">
