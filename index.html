@@ -124,14 +124,59 @@
                                 <button @click="welcomeSelect" :class="welcomeIndex ? 'selected' : '' "> Our
                                     Mission</button>
                             </div>
+                            <!-- Overview -->
+                            <div v-if="!welcomeIndex" class="content">
+                                <span class="message">{{welcomeText[welcomeIndex].content}}</span>
+                                <div class="paragraph_welcome">
+                                    <div class="icon">
+                                        <img :src="welcomeText[welcomeIndex].img_path1" alt="">
+                                    </div>
+                                    <div class="overview_content">
+                                        <span class="title">{{welcomeText[welcomeIndex].title1}}</span>
+                                        <p>{{welcomeText[welcomeIndex].paragraph1}}</p>
+                                    </div>
+                                </div>
+                                <div class="paragraph_welcome">
+                                    <div class="icon">
+                                        <img :src="welcomeText[welcomeIndex].img_path2" alt="">
+                                    </div>
+                                    <div class="overview_content">
+                                        <span class="title">{{welcomeText[welcomeIndex].title2}}</span>
+                                        <p>{{welcomeText[welcomeIndex].paragraph2}}</p>
+                                    </div>
 
+                                </div>
+                            </div>
+
+                            <!-- Our misssion -->
+                            <div v-if="welcomeIndex" class="content">
+                                <span class="message">{{welcomeText[welcomeIndex].content}}</span>
+                                <div class="paragraph_welcome">
+                                    <div class="icon">
+                                        <img :src="welcomeText[welcomeIndex].img_path1" alt="">
+                                    </div>
+                                    <div class="overview_content">
+                                        <span class="title">{{welcomeText[welcomeIndex].title1}}</span>
+                                        <p>{{welcomeText[welcomeIndex].paragraph1}}</p>
+                                    </div>
+                                </div>
+                                <div class="paragraph_welcome">
+                                    <div class="icon">
+                                        <img :src="welcomeText[welcomeIndex].img_path2" alt="">
+                                    </div>
+                                    <div class="overview_content">
+                                        <span class="title">{{welcomeText[welcomeIndex].title2}}</span>
+                                        <p>{{welcomeText[welcomeIndex].paragraph2}}</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="right_side">
+
+                            </div>
 
                         </div>
-                        <div class="right_side">
-
-                        </div>
-                    </div>
-                </div>
             </section>
         </main>
     </div>

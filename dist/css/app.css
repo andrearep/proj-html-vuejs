@@ -177,8 +177,34 @@ nav .navbar_menu .right_menu .menu_el img {
 #welcome .left_side .title_mission button {
   padding: 1rem 2rem;
   color: #C6C5C5;
+  margin-bottom: 2rem;
 }
 #welcome .left_side .title_mission .selected {
   background-color: #fe6601;
   color: #FEFFFE;
+}
+#welcome .left_side .content .message {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+#welcome .left_side .content .paragraph_welcome {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+#welcome .left_side .content .paragraph_welcome .icon {
+  height: 70%;
+  margin-right: 1rem;
+  padding: 1.5rem;
+  border-radius: 100%;
+  background-color: #fe6601;
+}
+#welcome .left_side .content .paragraph_welcome .overview_content .title {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+#welcome .left_side .content .paragraph_welcome .overview_content p {
+  color: #C6C5C5;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }

@@ -41,10 +41,42 @@
             button{
                 padding: 1rem 2rem;
                 color: $grey_text;
+                margin-bottom: 2rem;
+
             }
             .selected{
                 background-color: $orange;
                 color: $primary_body_bg_color;
+            } 
+        }
+        .content{
+            .message{
+                font-size: 1.8rem;
+                margin-bottom: 1.5rem;
+            }
+            .paragraph_welcome{
+                display: flex;
+                align-items: center;
+                margin: 1rem 0;
+              .icon{
+                  height: 70%;
+                  margin-right: 1rem;
+                  padding: 1.5rem;
+                  border-radius: 100% ;
+                  background-color: $orange;
+              }
+              .overview_content{
+               
+                  .title{
+                      font-size: 1.2rem;
+                      margin-bottom: 2rem;
+                  }
+                  p{
+                      color: $grey_text;
+                      margin-top: 1rem;
+                      margin-bottom: 1.5rem;
+                  }
+              }
             }
         }
     }
