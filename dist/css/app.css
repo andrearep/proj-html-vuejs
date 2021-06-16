@@ -29,6 +29,15 @@ body {
 .section_title span {
   color: #C6C5C5;
 }
+
+.bg_primary {
+  background-color: #FEFFFE;
+}
+
+.bg_secondary {
+  background-color: #E8E6E7;
+}
+
 nav {
   background-color: #FEFFFE;
   padding: 0 0.3rem;
@@ -121,4 +130,36 @@ nav .navbar_menu .right_menu .menu_el img {
   background-color: transparent;
   text-transform: uppercase;
   color: #FEFFFE;
+}
+
+.container {
+  padding: 2.5rem 0;
+}
+.container .welcome_cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.container .welcome_cards .card {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.3rem;
+}
+.container .welcome_cards .card > * {
+  margin-bottom: 1rem;
+}
+.container .welcome_cards .card .img {
+  padding: 3.5rem 0;
+  border-radius: 100%;
+}
+.container .welcome_cards .card .orange {
+  background-color: #fe6601;
+}
+.container .welcome_cards .card .purple {
+  background-color: #554e9e;
+}
+.container .welcome_cards .card span {
+  color: #C6C5C5;
 }

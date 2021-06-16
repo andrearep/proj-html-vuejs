@@ -1,0 +1,34 @@
+.container{
+    padding: 2.5rem 0;
+.welcome_cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    .card{
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1.3rem;
+        &>*{
+            margin-bottom: 1rem;
+        }
+        .img{
+            padding: 3.5rem 0;
+            border-radius: 100%;
+        }
+        .orange{
+            background-color: $orange;
+        }
+        .purple{
+            background-color: $primary_text_color;
+        }
+
+        span{
+            color:$grey_text
+        }
+
+        
+    }
+}
+}

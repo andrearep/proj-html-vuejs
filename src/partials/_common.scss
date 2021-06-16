@@ -63,7 +63,14 @@ body{
        font-weight: 300;
     }
     span{
-        color:#C6C5C5;
+        color:$grey_text
     }
   
+}
+
+.bg_primary{
+background-color: $primary_body_bg_color;
+}
+.bg_secondary{
+background-color: $secondary_body_bg_color;
 }
