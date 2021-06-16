@@ -84,4 +84,30 @@
             }
         }
     }
+
+    .bg_secondary{ 
+        .left_side{
+            width: 50%;
+            &>*{
+                margin-bottom: 2rem;
+            }
+            h4{
+                font-size: 1.8rem;
+            }
+            p{
+                color: #8c8a8a;
+            }
+            ul>li{
+                color: #8c8a8a;
+                list-style: none;
+                line-height: 1.6rem;
+                img{
+                    margin-right: 1rem;
+                }
+            }
+        }
+        .right_side{
+            width: 50%;
+        }
+   }
 }

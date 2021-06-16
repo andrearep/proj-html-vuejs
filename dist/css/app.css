@@ -392,3 +392,26 @@ nav .navbar_menu .right_menu .menu_el img {
   padding: 0.7rem;
   font-weight: 700;
 }
+#class .bg_secondary .left_side {
+  width: 50%;
+}
+#class .bg_secondary .left_side > * {
+  margin-bottom: 2rem;
+}
+#class .bg_secondary .left_side h4 {
+  font-size: 1.8rem;
+}
+#class .bg_secondary .left_side p {
+  color: #8c8a8a;
+}
+#class .bg_secondary .left_side ul > li {
+  color: #8c8a8a;
+  list-style: none;
+  line-height: 1.6rem;
+}
+#class .bg_secondary .left_side ul > li img {
+  margin-right: 1rem;
+}
+#class .bg_secondary .right_side {
+  width: 50%;
+}
