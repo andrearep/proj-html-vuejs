@@ -85,3 +85,25 @@ nav .navbar_menu .right_menu .menu_el img {
 .header_slider .position_carousel_selectors div .selected {
   bottom: 10px;
 }
+
+.call2act {
+  background-image: url("../img/common/pattern.png");
+}
+
+.c2a {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+.c2a span {
+  font-size: 2rem;
+  color: #FEFFFE;
+  font-weight: 300;
+}
+.c2a button {
+  border: 1px solid #FEFFFE;
+  padding: 0.1rem 0.8rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #FEFFFE;
+}
