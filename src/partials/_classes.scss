@@ -1,0 +1,16 @@
+#class{
+    .text_classes{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .left_span{
+            width: 50%;
+            font-size: 1.8rem;
+        }
+        .right_span{
+            width: 45%;
+            color:$grey_text;
+
+        }
+    }
+}
