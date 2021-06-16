@@ -3,14 +3,85 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 2rem;
         .left_span{
             width: 50%;
             font-size: 1.8rem;
         }
         .right_span{
-            width: 45%;
+            width: 48.5%;
             color:$grey_text;
 
+        }
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        .card{
+            display: flex;
+            margin-bottom: 1.5rem;
+            width: 48.5%;
+            .left_side{
+                display: flex;
+                flex-direction: column;
+                color: $primary_body_bg_color;
+                width:50%;
+                padding: 1rem;
+                background-color: $primary_text_color;
+                .class_title{
+                    margin-bottom: 3rem;
+                    .class_name{
+                        display: block;
+                        font-size: 1.4rem;
+                    }
+                    .class_descr{
+                        font-size: 0.9rem;  
+                    }
+                }
+                .class_age_size{
+                    display: flex;
+                    .age ,  .size{
+                        width: 50%;
+                        padding :0.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .numb{
+                            font-size: 1.2rem;
+                        }
+                        .descr{
+                            font-size: 0.8rem;
+                        }
+                    }
+                    .age{
+                        border-right: 1px solid #8c8a8a;
+                    }
+                   
+                }
+            }
+
+            .right_side{
+                width: 50%;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                button{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    text-transform: uppercase;
+                    background-color: $orange;
+                    color: $primary_body_bg_color;
+                    padding: 0.7rem;
+                    font-weight: 700;
+                }
+            }
         }
     }
 }

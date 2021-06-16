@@ -315,12 +315,80 @@ nav .navbar_menu .right_menu .menu_el img {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 #class .text_classes .left_span {
   width: 50%;
   font-size: 1.8rem;
 }
 #class .text_classes .right_span {
-  width: 45%;
+  width: 48.5%;
   color: #C6C5C5;
+}
+#class .cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#class .cards .card {
+  display: flex;
+  margin-bottom: 1.5rem;
+  width: 48.5%;
+}
+#class .cards .card .left_side {
+  display: flex;
+  flex-direction: column;
+  color: #FEFFFE;
+  width: 50%;
+  padding: 1rem;
+  background-color: #554e9e;
+}
+#class .cards .card .left_side .class_title {
+  margin-bottom: 3rem;
+}
+#class .cards .card .left_side .class_title .class_name {
+  display: block;
+  font-size: 1.4rem;
+}
+#class .cards .card .left_side .class_title .class_descr {
+  font-size: 0.9rem;
+}
+#class .cards .card .left_side .class_age_size {
+  display: flex;
+}
+#class .cards .card .left_side .class_age_size .age, #class .cards .card .left_side .class_age_size .size {
+  width: 50%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#class .cards .card .left_side .class_age_size .age .numb, #class .cards .card .left_side .class_age_size .size .numb {
+  font-size: 1.2rem;
+}
+#class .cards .card .left_side .class_age_size .age .descr, #class .cards .card .left_side .class_age_size .size .descr {
+  font-size: 0.8rem;
+}
+#class .cards .card .left_side .class_age_size .age {
+  border-right: 1px solid #8c8a8a;
+}
+#class .cards .card .right_side {
+  width: 50%;
+  position: relative;
+}
+#class .cards .card .right_side img {
+  width: 100%;
+  height: 100%;
+}
+#class .cards .card .right_side button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-transform: uppercase;
+  background-color: #fe6601;
+  color: #FEFFFE;
+  padding: 0.7rem;
+  font-weight: 700;
 }
