@@ -1,0 +1,80 @@
+footer{
+    .bg_purple{
+        background-image: url('../img/common/pattern.png');
+        .cards{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .card{
+                width: 23%;
+                color: #A9A6CF;
+                h5{
+                    color: $primary_body_bg_color;
+                    text-transform: uppercase;
+                    font-size: 1.5rem;
+                    margin-bottom: 0.5rem;
+                }
+            
+                .divisor{
+                    width: 30%;
+                    border: 1px solid #A9A6CF;
+                    margin-bottom: 1.5rem;
+                }
+                .img{
+                    
+                    .logo{
+                        width: 100%;
+                        margin-top: 2rem;
+                    }
+                }
+                .month_year{
+                    span{
+                        width: 100%;
+                        padding: 0.8rem;
+                        border: 1px solid #A9A6CF;
+                        margin-bottom: 0.2rem;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                    display: inline-block;
+                    font-size: 0.9rem;
+                    
+                    }
+                }
+                ul{
+                    margin-top: 1.2rem;
+                    li{
+                    list-style: none;
+                    line-height: 1.7rem;
+                    }
+                }
+
+                .post{
+                    margin-bottom: 1.5rem;
+                    width: 100%;
+                    display: flex;
+                    .left_side{
+                        width: 35%;
+                        .img{
+                            img{
+                                width: 100%;
+                            };
+                        }
+                    }
+                    .right_side{
+                        width: 65%;
+                        padding-left: 0.5rem;
+                        .title{
+                            color: $primary_body_bg_color;
+                            margin-bottom: 0.8rem;
+                            font-weight: 700;
+                            display: block;
+                        }
+                        .date{
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
