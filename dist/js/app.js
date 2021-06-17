@@ -61,7 +61,7 @@ var app = new Vue({
     indexSlider1: 0,
     slider1_img: ['./dist/img/welcome_fable/welcome_slider/gallery_01-690x506.jpg', './dist/img/welcome_fable/welcome_slider/gallery_02-690x506.jpg', './dist/img/welcome_fable/welcome_slider/gallery_03-690x506.jpg'],
     indexFooter1: 0,
-    footer_slide1: ['background-image: url("./dist/img/welcome_fable/footer_slider/parallax_01.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi1.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi2.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi3.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi4.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.jpg")'],
+    footer_slide1: ['background-image: url("./dist/img/welcome_fable/footer_slider/parallax_01.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi1.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.png")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi2.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi3.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi4.jpg")', 'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.png")'],
     indexFooter2: 2,
     footer_slide2: [{
       quotation: "La maggior parte delle persone sono altre persone. I loro pensieri sono opinioni di qualcun altro, la loro vita un’imitazione, le loro passioni una citazione.",

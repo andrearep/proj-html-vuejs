@@ -254,22 +254,17 @@
                                 <span class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Doloribus, numquam.</span>
                             </div>
+
                             <div class="position_carousel_selectors">
                                 <div class="carousel_selectors">
-                                    <div class="carousel_selector selected"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector "></div>
+                                    <div v-for="(carousel,index) in footer_slide1.length"
+                                        :class="index== indexFooter1 ? 'carousel_selector selected': 'carousel_selector' ">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
-                </div>
             </section>
 
             <!-- class section -->
@@ -640,7 +635,6 @@
                                     :class="index== indexFooter2 ? 'carousel_selector selected': 'carousel_selector' ">
                                 </div>
                             </div>
-
                         </div>
                     </div>
             </section>

@@ -73,11 +73,11 @@ const app = new Vue({
         footer_slide1: [
             'background-image: url("./dist/img/welcome_fable/footer_slider/parallax_01.jpg")',
             'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi1.jpg")',
-            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.jpg")',
+            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.png")',
             'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi2.jpg")',
             'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi3.jpg")',
             'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi4.jpg")',
-            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.jpg")'
+            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.png")'
 
         ],
         indexFooter2: 2,
