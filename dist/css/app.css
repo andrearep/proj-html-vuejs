@@ -469,3 +469,166 @@ nav .navbar_menu .right_menu .menu_el img {
   width: 48.5%;
   color: #C6C5C5;
 }
+#staff .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#staff .cards .card {
+  width: 48.5%;
+  display: flex;
+}
+#staff .cards .card .left_side {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#staff .cards .card .left_side > * {
+  margin-bottom: 1rem;
+}
+#staff .cards .card .left_side img {
+  height: 70%;
+  width: 100%;
+}
+#staff .cards .card .left_side .staff_name {
+  font-size: 1.1rem;
+}
+#staff .cards .card .left_side .staff_rule {
+  font-size: 0.8rem;
+  color: #C6C5C5;
+}
+#staff .cards .card .right_side {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+#staff .cards .card .right_side .quotes {
+  position: absolute;
+  left: -30px;
+  top: 30px;
+  padding: 0 0.7rem 0 4rem;
+  padding-left: 4rem;
+  border: 1px solid #fe6601;
+}
+#staff .cards .card .right_side .she_said {
+  margin-top: 4rem;
+  color: #8c8a8a;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+#staff .cards .card .right_side .socials {
+  display: flex;
+}
+#staff .cards .card .right_side .socials .icon {
+  background-color: #fe6601;
+  margin-right: 0.3rem;
+}
+#staff .section_footer {
+  background-image: url("../img/our_staff/parallax_02.jpg");
+}
+#staff .section_footer .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #FEFFFE;
+  text-align: center;
+  position: relative;
+}
+#staff .section_footer .container > * {
+  margin-bottom: 2rem;
+}
+#staff .section_footer .container .img {
+  border-radius: 100%;
+  border: 1px solid #FEFFFE;
+  padding: 1.5rem;
+}
+#staff .section_footer .container .quotation {
+  font-size: 2.3rem;
+}
+#staff .section_footer .container .divisor {
+  width: 10%;
+  border-bottom: 1px solid #FEFFFE;
+}
+#staff .section_footer .container .name {
+  font-weight: 700;
+}
+#staff .section_footer .container .position_carousel_selectors {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  bottom: 0;
+}
+#staff .section_footer .container .position_carousel_selectors div {
+  display: flex;
+  position: relative;
+}
+#staff .section_footer .container .position_carousel_selectors div div {
+  height: 10px;
+  width: 30px;
+  border: 2px solid #fe6601;
+  margin: 0.3rem;
+}
+#staff .section_footer .container .position_carousel_selectors div .selected {
+  bottom: 10px;
+}
+#staff .section_footer .container .position_carousel_selectors div div {
+  border: 2px solid #FEFFFE;
+}
+
+#blog .cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+#blog .cards .card {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  color: #8c8a8a;
+}
+#blog .cards .card > * {
+  margin-bottom: 1rem;
+}
+#blog .cards .card .article_img {
+  width: 100%;
+}
+#blog .cards .card h4 {
+  color: #554e9e;
+  font-size: 1.4rem;
+}
+#blog .cards .card .divisor {
+  width: 100%;
+  border-bottom: 1px solid #dfdddd;
+}
+#blog .cards .card .author_category {
+  display: flex;
+}
+#blog .cards .card .author_category .author, #blog .cards .card .author_category .category {
+  margin-right: 1rem;
+}
+#blog .cards .card .author_category .author img, #blog .cards .card .author_category .category img {
+  margin-right: 0.4rem;
+}
+#blog .button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#blog .button button {
+  padding: 0.5rem;
+  background-color: #fe6601;
+  color: #FEFFFE;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#blog .button button span {
+  margin-left: 0.7rem;
+}
+#blog #map {
+  width: 100%;
+  height: 300px;
+}

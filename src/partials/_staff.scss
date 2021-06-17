@@ -13,4 +13,105 @@
             color:$grey_text;
         }
     }
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .card{
+            width: 48.5%;
+            display: flex;
+            .left_side{
+                width: 50%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                &>*{
+                    margin-bottom: 1rem;
+                }
+                img{
+                    height: 70%;
+                    width: 100%;
+                }
+                .staff_name{
+                    font-size: 1.1rem;
+                }
+                .staff_rule{
+                    font-size: 0.8rem;
+                    color: $grey_text;
+                }
+            }
+            .right_side{
+                position: relative;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+                .quotes{
+                    position: absolute;
+                    left: -30px;
+                    top: 30px;
+                    padding: 0 0.7rem 0 4rem;
+                    padding-left: 4rem;
+                border: 1px solid $orange;
+                }
+                .she_said{
+                    margin-top: 4rem;
+                    color:#8c8a8a;
+                    font-weight: 700;
+                    margin-bottom: 2rem;
+                    
+                }
+                .socials{
+                    display: flex;
+                    .icon{
+                        background-color: $orange;
+                        margin-right: 0.3rem;
+                    
+                    }
+                }
+            }
+        }
+    }
+
+    .section_footer{
+        background-image: url('../img/our_staff/parallax_02.jpg');
+        .container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: $primary_body_bg_color;
+            text-align: center;
+            position: relative;
+         
+            &>*{
+                margin-bottom: 2rem;
+            }
+            .img{
+              
+                border-radius: 100%;
+                border: 1px solid $primary_body_bg_color;
+                padding: 1.5rem;
+            }
+            .quotation{
+                font-size: 2.3rem;
+            }
+            .divisor{
+                width: 10%;
+                border-bottom: 1px solid $primary_body_bg_color;
+            }
+            .name{
+                font-weight: 700;
+            }
+            .position_carousel_selectors{
+                @include carousel_selector;
+                bottom: 0;
+                div{
+                    div{
+                        border: 2px solid $primary_body_bg_color;
+                    }
+                }
+        }
+        
+        }
+    }
 }

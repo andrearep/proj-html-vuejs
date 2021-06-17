@@ -1,0 +1,62 @@
+#blog{
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        .card{
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+            color: #8c8a8a;
+            &>*{
+                margin-bottom: 1rem;
+            }
+            .date{
+                
+            }
+            .article_img{
+                width: 100%;
+            }
+            h4{
+                color:$primary_text_color;
+                font-size: 1.4rem;
+            }
+            .divisor{
+                width: 100%;
+                border-bottom: 1px solid rgb(223, 221, 221);
+            }
+            .author_category{
+                display: flex;
+                .author, .category{
+                    margin-right: 1rem;
+                    img{
+                        margin-right: 0.4rem;
+                    }
+                }
+            }
+        }
+    }
+    .button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        button{
+            padding: 0.5rem;
+            background-color: $orange;
+            color: $primary_body_bg_color;
+            text-transform: uppercase;
+            font-weight: 700;
+            span{
+                margin-left: 0.7rem;
+            }
+
+        }
+    }
+
+    #map {
+        width: 100%;
+        height: 300px;
+      }
+      
+   
+}
