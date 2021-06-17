@@ -112,12 +112,22 @@
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
+                position:relative;
                 
-                div{
+                .small_imgs{
                     width: 31.5%;
+                   
                     .small_img{
                         width: 100%;
                         height: 100px;
+                        
+                    }
+                    .selected{
+                        height: 1px;
+                        position: absolute;
+                        bottom: -10px;
+                        border-top: 5px solid  $orange;
+                        width: 31.5%;
                     }
                 }
             }

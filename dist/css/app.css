@@ -263,13 +263,21 @@ nav .navbar_menu .right_menu .menu_el img {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
-#welcome .right_side .slider .small_images div {
+#welcome .right_side .slider .small_images .small_imgs {
   width: 31.5%;
 }
-#welcome .right_side .slider .small_images div .small_img {
+#welcome .right_side .slider .small_images .small_imgs .small_img {
   width: 100%;
   height: 100px;
+}
+#welcome .right_side .slider .small_images .small_imgs .selected {
+  height: 1px;
+  position: absolute;
+  bottom: -10px;
+  border-top: 5px solid #fe6601;
+  width: 31.5%;
 }
 #welcome .section_footer {
   background-image: url("../img/welcome_fable/parallax_01.jpg");

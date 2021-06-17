@@ -202,13 +202,14 @@
                                 <div class="main_image">
                                     <img class="previous" src="./dist/img/common/slider_previous.png" alt="">
                                     <img class="next" src="./dist/img/common/slider_next.png" alt="">
-                                    <img class="main"
-                                        src="./dist/img/welcome_fable/welcome_slider/gallery_01-690x506.jpg" alt="">
+                                    <img class="main" :src="slider1_img[indexSlider1]" alt="">
 
                                 </div>
                                 <div class="small_images">
-                                    <div v-for="img in slider_img">
+                                    <div @click="selectedSlider1" class="small_imgs" v-for="(img, index) in slider1_img"
+                                        :data-number="index">
                                         <img :src="img" alt="" class="small_img" alt="">
+                                        <div v-if="index==indexSlider1" class="selected"></div>
                                     </div>
 
                                 </div>

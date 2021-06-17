@@ -58,11 +58,15 @@ var app = new Vue({
       title2: 'Full Day Sessions',
       paragraph2: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, ex!'
     }],
-    slider_img: ['./dist/img/welcome_fable/welcome_slider/gallery_01-690x506.jpg', './dist/img/welcome_fable/welcome_slider/gallery_02-690x506.jpg', './dist/img/welcome_fable/welcome_slider/gallery_03-690x506.jpg']
+    indexSlider1: 0,
+    slider1_img: ['./dist/img/welcome_fable/welcome_slider/gallery_01-690x506.jpg', './dist/img/welcome_fable/welcome_slider/gallery_02-690x506.jpg', './dist/img/welcome_fable/welcome_slider/gallery_03-690x506.jpg']
   },
   methods: {
     selected: function selected(e) {
       return this.navbarIndex = e.currentTarget.getAttribute('data-number');
+    },
+    selectedSlider1: function selected(e) {
+      return this.indexSlider1 = e.currentTarget.getAttribute('data-number');
     },
     welcomeSelect: function welcomeSelect(e) {
       console.log(e.currentTarget.getAttribute('class'));
