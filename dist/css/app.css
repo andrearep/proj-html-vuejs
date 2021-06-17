@@ -283,6 +283,23 @@ nav .navbar_menu .right_menu .menu_el img {
   background-image: url("../img/welcome_fable/parallax_01.jpg");
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+#welcome .section_footer .next, #welcome .section_footer .previous {
+  opacity: 0;
+  position: absolute;
+  padding: 2rem;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+}
+#welcome .section_footer .next {
+  right: 24px;
+  transform: translate(-50%, -50%);
+}
+#welcome .section_footer .previous {
+  left: 24px;
+  transform: translate(50%, -50%);
 }
 #welcome .section_footer .cards {
   position: relative;
@@ -546,7 +563,27 @@ nav .navbar_menu .right_menu .menu_el img {
   margin-right: 0.3rem;
 }
 #staff .section_footer {
+  position: relative;
+  height: 500px;
+  position: relative;
   background-image: url("../img/our_staff/parallax_02.jpg");
+  background-position: center;
+}
+#staff .section_footer .next, #staff .section_footer .previous {
+  opacity: 0;
+  position: absolute;
+  padding: 2rem;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+}
+#staff .section_footer .next {
+  right: 24px;
+  transform: translate(-50%, -50%);
+}
+#staff .section_footer .previous {
+  left: 24px;
+  transform: translate(50%, -50%);
 }
 #staff .section_footer .container {
   display: flex;
@@ -554,7 +591,6 @@ nav .navbar_menu .right_menu .menu_el img {
   flex-direction: column;
   color: #FEFFFE;
   text-align: center;
-  position: relative;
 }
 #staff .section_footer .container > * {
   margin-bottom: 2rem;
@@ -574,27 +610,27 @@ nav .navbar_menu .right_menu .menu_el img {
 #staff .section_footer .container .name {
   font-weight: 700;
 }
-#staff .section_footer .container .position_carousel_selectors {
+
+.position_carousel_selectors {
   position: absolute;
   bottom: 10%;
   right: 50%;
   transform: translate(50%, 50%);
-  bottom: 0;
 }
-#staff .section_footer .container .position_carousel_selectors div {
+.position_carousel_selectors div {
   display: flex;
   position: relative;
 }
-#staff .section_footer .container .position_carousel_selectors div div {
+.position_carousel_selectors div div {
   height: 10px;
   width: 30px;
   border: 2px solid #fe6601;
   margin: 0.3rem;
 }
-#staff .section_footer .container .position_carousel_selectors div .selected {
+.position_carousel_selectors div .selected {
   bottom: 10px;
 }
-#staff .section_footer .container .position_carousel_selectors div div {
+.position_carousel_selectors div div {
   border: 2px solid #FEFFFE;
 }
 
@@ -818,5 +854,12 @@ footer .copyright {
 
 .btn:hover, .socials > .img:hover, .socials > .icon:hover {
   background-color: #554e9e;
+  cursor: pointer;
+}
+
+#staff .section_footer:hover .next, #staff .section_footer:hover .previous, #welcome .section_footer:hover .next, #welcome .section_footer:hover .previous {
+  opacity: 1;
+}
+#staff .section_footer:hover .next:hover, #staff .section_footer:hover .previous:hover, #welcome .section_footer:hover .next:hover, #welcome .section_footer:hover .previous:hover {
   cursor: pointer;
 }

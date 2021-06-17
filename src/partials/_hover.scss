@@ -24,3 +24,11 @@ cursor:pointer;
     background-color: $primary_text_color;
     cursor:pointer;
 }
+#staff .section_footer:hover, #welcome .section_footer:hover{
+    .next, .previous{
+        opacity: 1;
+        &:hover{
+            cursor:pointer;
+        }
+    }
+}

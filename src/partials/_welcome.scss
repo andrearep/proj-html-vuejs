@@ -138,6 +138,25 @@
         background-image: url("../img/welcome_fable/parallax_01.jpg");
         background-size: cover;
         background-position: center;
+        position: relative;
+        
+        .next, .previous{
+            opacity: 0;
+            position: absolute;
+            padding: 2rem;
+            top: 50%;
+            background-color: rgba(0,0,0,0.4);
+            border-radius: 100%;
+        }
+        .next{
+            right: 24px;
+            transform: translate(-50%,-50%);
+        }
+        .previous{
+            left: 24px;
+            transform: translate(50%,-50%);
+
+        }
         
             .cards{
                 position: relative;
