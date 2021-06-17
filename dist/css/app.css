@@ -51,6 +51,14 @@ button {
   background-color: #E8E6E7;
 }
 
+.go_to_top {
+  padding: 0.5rem;
+  background-color: #9B9B9B;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
 nav {
   background-color: #FEFFFE;
   padding: 0 0.3rem;

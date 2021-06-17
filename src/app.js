@@ -82,6 +82,9 @@ const app = new Vue({
             } else if (this.welcomeIndex) {
                 return this.welcomeIndex--;
             } else return this.welcomeIndex++;
+        },
+        scroll_to_top: function () {
+            window.scrollTo(0, 0);
         }
 
 

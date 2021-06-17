@@ -72,6 +72,9 @@ var app = new Vue({
       } else if (this.welcomeIndex) {
         return this.welcomeIndex--;
       } else return this.welcomeIndex++;
+    },
+    scroll_to_top: function scroll_to_top() {
+      window.scrollTo(0, 0);
     }
   },
   mounted: function mounted() {}
