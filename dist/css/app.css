@@ -770,3 +770,18 @@ footer .bg_purple .cards .card .post .right_side .title {
 footer .bg_purple .cards .card .post .right_side .date {
   font-size: 0.9rem;
 }
+footer .socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+footer .socials .img {
+  background-color: #fe6601;
+  margin-right: 0.2rem;
+}
+footer .copyright {
+  text-align: center;
+  display: block;
+  color: #8c8a8a;
+}

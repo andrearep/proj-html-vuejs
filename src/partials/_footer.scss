@@ -77,4 +77,21 @@ footer{
             }
         }
     }
+    .socials{
+        width: 100%;
+        display:flex ;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+
+        .img{
+            background-color: $orange;
+            margin-right: 0.2rem;
+        }
+    }
+    .copyright{
+        text-align: center;
+        display: block;
+        color: #8c8a8a;
+    }
+
 }
