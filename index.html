@@ -220,6 +220,13 @@
                 </div>
 
                 <div class="section_footer">
+                    <div class="next" @click="nextFooter1">
+                        <img src="./dist/img/common/slider_next.png" alt="">
+                    </div>
+                    <div class="previous" @click="previousFooter1">
+                        <img src="./dist/img/common/slider_previous.png" alt="" class="">
+                    </div>
+
                     <div class="container">
                         <div class="cards">
                             <div class="card">
@@ -609,29 +616,32 @@
                     </div>
 
                     <div class="section_footer">
+                        <div class="next" @click="nextFooter2">
+                            <img src="./dist/img/common/slider_next.png" alt="">
+                        </div>
+                        <div class="previous" @click="previousFooter2">
+                            <img src="./dist/img/common/slider_previous.png" alt="" class="">
+                        </div>
                         <div class="container">
                             <div class="img">
                                 <img src="./dist/img/our_staff/quote_alt.png" alt="">
                             </div>
-                            <span class="quotation">Fable Kindergarten is a great place for my daughter to start her
-                                schooling experience. It's welcoming and safe and my daughter loves being there.</span>
+                            <span class="quotation">{{footer_slide2[indexFooter2].quotation}}</span>
                             <div class="divisor"></div>
-                            <span class="name">Joe R. Hamblen</span>
+                            <span class="name">{{footer_slide2[indexFooter2].name}}</span>
 
-                            <div class="position_carousel_selectors">
-                                <div class="carousel_selectors">
 
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector selected"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector"></div>
-                                    <div class="carousel_selector"></div>
+                        </div>
+
+                        <div class="position_carousel_selectors">
+                            <div class="carousel_selectors">
+                                <div v-for="(carousel,index) in footer_slide2.length"
+                                    :class="index== indexFooter2 ? 'carousel_selector selected': 'carousel_selector' ">
                                 </div>
                             </div>
+
                         </div>
                     </div>
-                </div>
             </section>
 
             <section id="blog">

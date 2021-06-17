@@ -68,6 +68,42 @@ const app = new Vue({
             './dist/img/welcome_fable/welcome_slider/gallery_01-690x506.jpg',
             './dist/img/welcome_fable/welcome_slider/gallery_02-690x506.jpg',
             './dist/img/welcome_fable/welcome_slider/gallery_03-690x506.jpg'
+        ],
+        indexFooter1: 0,
+        footer_slide: [
+            './dist/img/welcome_fable/footer slider/bimbi1.jpg',
+            './dist/img/welcome_fable/footer slider/bimbi6.jpg',
+            './dist/img/welcome_fable/footer slider/bimbi2.jpg',
+            './dist/img/welcome_fable/footer slider/bimbi3.jpg',
+            './dist/img/welcome_fable/footer slider/bimbi4.jpg',
+            './dist/img/welcome_fable/footer slider/bimbi6.jpg',
+        ],
+        indexFooter2: 2,
+        footer_slide2: [
+            {
+                quotation: "La maggior parte delle persone sono altre persone. I loro pensieri sono opinioni di qualcun altro, la loro vita un’imitazione, le loro passioni una citazione.",
+                name: 'Oscar Wilde'
+            },
+            {
+                quotation: "Se pensi in termini di anni, pianta il riso.Se pensi in termini di decenni, pianta alberi.Se pensi in termini di centinaia di anni, insegna alla gente.",
+                name: 'Confucio'
+            },
+            {
+                quotation: "Fable Kindergarten is a great place for my daughter to start her schooling experience. It's welcoming and safe and my daughter loves being there.",
+                name: 'Joe R. Hamblen'
+            },
+            {
+                quotation: "Ci sono due diversi tipi di persone nel mondo, coloro che vogliono sapere, e coloro che vogliono credere.",
+                name: 'Friedrich Nietzsche'
+            },
+            {
+                quotation: "Amo i solitari, i diversi, quelli che non incontri mai. Quelli persi, andati, spiritati, fottuti. Quelli con l’anima in fiamme.",
+                name: 'Charles Bukowski'
+            },
+            {
+                quotation: "Tutto l’universo cospira affinché chi lo desidera con tutto se stesso possa riuscire a realizzare i propri sogni.",
+                name: 'Paulo Coelho'
+            },
         ]
 
 
@@ -96,6 +132,26 @@ const app = new Vue({
             if (this.indexSlider1 > 0) {
                 return this.indexSlider1--;
             } else return this.indexSlider1 = this.slider1_img.length - 1;
+        },
+        nextFooter1: function () {
+            if (this.indexFooter1 < this.footer_slide1.length - 1) {
+                return this.indexFooter1++;
+            } else return this.indexFooter1 = 0;
+        },
+        previousFooter1: function () {
+            if (this.indexFooter1 > 0) {
+                return this.indexFooter1--;
+            } else return this.indexFooter1 = this.footer_slide1.length - 1;
+        },
+        nextFooter2: function () {
+            if (this.indexFooter2 < this.footer_slide2.length - 1) {
+                return this.indexFooter2++;
+            } else return this.indexFooter2 = 0;
+        },
+        previousFooter2: function () {
+            if (this.indexFooter2 > 0) {
+                return this.indexFooter2--;
+            } else return this.indexFooter2 = this.footer_slide2.length - 1;
         },
         scroll_to_top: function () {
             window.scrollTo(0, 0);
