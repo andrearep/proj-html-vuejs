@@ -77,6 +77,16 @@ var app = new Vue({
         return this.welcomeIndex--;
       } else return this.welcomeIndex++;
     },
+    next: function next() {
+      if (this.indexSlider1 < this.slider1_img.length - 1) {
+        return this.indexSlider1++;
+      } else return this.indexSlider1 = 0;
+    },
+    previous: function previous() {
+      if (this.indexSlider1 > 0) {
+        return this.indexSlider1--;
+      } else return this.indexSlider1 = this.slider1_img.length - 1;
+    },
     scroll_to_top: function scroll_to_top() {
       window.scrollTo(0, 0);
     }
