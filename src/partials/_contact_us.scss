@@ -1,0 +1,79 @@
+#contact_us{
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.5rem;
+        .card{
+            width: 25%;
+            padding: 0 2rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .img{
+                margin-bottom: 1rem;
+            }
+            h4{
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            span{
+                color: $grey_text;
+                line-height: 1.3rem;
+            }
+        }
+    }
+
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+
+        .left_side{
+            width: 50%;
+            padding-right: 1rem;
+            height: 200px;
+            
+            form{
+                height: 100%;
+                display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+                input{
+                
+                    width: 100%;
+                    
+                    padding:0.5rem;
+                    font-size: 1.3rem;
+                    border: 1px solid $grey_text;
+                }
+            }
+            
+        }
+        .right_side{
+            width: 50%;
+            textarea{
+                resize: none;
+                height: 200px;
+                width: 100%;
+                border: 1px solid $grey_text;
+                margin-bottom: 2rem;
+                padding:0.5rem;
+                font-size: 1.3rem;
+            }
+        }
+        .button{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+                button{
+                    padding: 0.5rem;
+                    background-color: $orange;
+                    color: $primary_body_bg_color;
+                    text-transform: uppercase;
+                
+                 }
+     }
+    
+    }
+}
