@@ -6,12 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fable</title>
+
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
     <!-- css -->
     <link rel="stylesheet" href="./dist/css/app.css">
+
+    <script>
+        function initMap() {
+            const myLatLng = { lat: 45.396174, lng: -75.676592 };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 16,
+                center: myLatLng,
+            });
+            new google.maps.Marker({
+                position: myLatLng,
+                map,
+                title: "Hello World!",
+            });
+        }
+    </script>
 
 </head>
 
@@ -688,19 +705,25 @@
                         <div class="button">
                             <button>go to blog <span> > </span></button>
                         </div>
-                        <div id="map"></div>
+
 
                     </div>
+                    <div id="map"></div>
                 </div>
             </section>
         </main>
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-        async></script>
-    <!-- vue csn -->
+
+
+    <!-- vue cdn -->
     <script src=" https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 
     <script src="./dist/js/app.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCopFG9nngR_IBzanorBDl8qPM7MZup7og&callback=initMap&libraries=&v=weekly"
+        async></script>
+
+
 </body>
 
 </html>
