@@ -70,13 +70,15 @@ const app = new Vue({
             './dist/img/welcome_fable/welcome_slider/gallery_03-690x506.jpg'
         ],
         indexFooter1: 0,
-        footer_slide: [
-            './dist/img/welcome_fable/footer slider/bimbi1.jpg',
-            './dist/img/welcome_fable/footer slider/bimbi6.jpg',
-            './dist/img/welcome_fable/footer slider/bimbi2.jpg',
-            './dist/img/welcome_fable/footer slider/bimbi3.jpg',
-            './dist/img/welcome_fable/footer slider/bimbi4.jpg',
-            './dist/img/welcome_fable/footer slider/bimbi6.jpg',
+        footer_slide1: [
+            'background-image: url("./dist/img/welcome_fable/footer_slider/parallax_01.jpg")',
+            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi1.jpg")',
+            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.jpg")',
+            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi2.jpg")',
+            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi3.jpg")',
+            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi4.jpg")',
+            'background-image: url("./dist/img/welcome_fable/footer_slider/bimbi6.jpg")'
+
         ],
         indexFooter2: 2,
         footer_slide2: [

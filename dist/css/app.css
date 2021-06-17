@@ -285,6 +285,12 @@ nav .navbar_menu .right_menu .menu_el img {
   background-position: center;
   position: relative;
 }
+#welcome .section_footer .bg_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 #welcome .section_footer .next, #welcome .section_footer .previous {
   opacity: 0;
   position: absolute;
