@@ -72,15 +72,11 @@
                     width: 100%;
                     height: 100%;
                 }
-                button{
+                .btn{
                     position: absolute;
                     bottom: 0;
                     right: 0;
-                    text-transform: uppercase;
-                    background-color: $orange;
-                    color: $primary_body_bg_color;
-                    padding: 0.7rem;
-                    font-weight: 700;
+                 
                 }
             }
         }

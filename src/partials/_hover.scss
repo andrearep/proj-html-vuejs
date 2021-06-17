@@ -1,0 +1,26 @@
+.go_to_top:hover{
+    border: 3px solid rgb(202, 202, 202);
+    background-color: rgb(63, 63, 63);
+    cursor:pointer;
+}
+
+.menu_el:hover{
+background-color: rgb(247, 226, 199);
+cursor:pointer;
+}
+
+.c2a>button:hover{
+    background-color: $primary_body_bg_color;
+    color: $primary_text_color;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+.title_mission>button:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.btn:hover, .socials>.img:hover, .socials>.icon:hover{
+    background-color: $primary_text_color;
+    cursor:pointer;
+}

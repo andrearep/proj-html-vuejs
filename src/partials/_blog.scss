@@ -11,9 +11,7 @@
             &>*{
                 margin-bottom: 1rem;
             }
-            .date{
-                
-            }
+          
             .article_img{
                 width: 100%;
             }
@@ -40,12 +38,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        button{
-            padding: 0.5rem;
-            background-color: $orange;
-            color: $primary_body_bg_color;
-            text-transform: uppercase;
-            
+        .btn{
             span{
                 margin-left: 0.7rem;
             }

@@ -59,6 +59,14 @@ button {
   right: 20px;
 }
 
+.btn {
+  text-transform: uppercase;
+  background-color: #fe6601;
+  color: #FEFFFE;
+  padding: 0.7rem;
+  font-weight: 700;
+}
+
 nav {
   background-color: #FEFFFE;
   padding: 0 0.3rem;
@@ -142,7 +150,7 @@ nav .navbar_menu .right_menu .menu_el img {
 .c2a {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 .c2a span {
   font-size: 2rem;
@@ -191,7 +199,7 @@ nav .navbar_menu .right_menu .menu_el img {
 }
 #welcome .left_side .title_mission button {
   padding: 1rem 2rem;
-  color: #C6C5C5;
+  color: #8c8a8a;
   margin-bottom: 2rem;
 }
 #welcome .left_side .title_mission .selected {
@@ -219,7 +227,7 @@ nav .navbar_menu .right_menu .menu_el img {
   margin-bottom: 2rem;
 }
 #welcome .left_side .content .paragraph_welcome .overview_content p {
-  color: #C6C5C5;
+  color: #8c8a8a;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -391,15 +399,10 @@ nav .navbar_menu .right_menu .menu_el img {
   width: 100%;
   height: 100%;
 }
-#class .cards .card .right_side button {
+#class .cards .card .right_side .btn {
   position: absolute;
   bottom: 0;
   right: 0;
-  text-transform: uppercase;
-  background-color: #fe6601;
-  color: #FEFFFE;
-  padding: 0.7rem;
-  font-weight: 700;
 }
 #class .bg_secondary .container {
   display: flex;
@@ -626,13 +629,7 @@ nav .navbar_menu .right_menu .menu_el img {
   display: flex;
   justify-content: center;
 }
-#blog .button button {
-  padding: 0.5rem;
-  background-color: #fe6601;
-  color: #FEFFFE;
-  text-transform: uppercase;
-}
-#blog .button button span {
+#blog .button .btn span {
   margin-left: 0.7rem;
 }
 #blog #map {
@@ -702,12 +699,6 @@ nav .navbar_menu .right_menu .menu_el img {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-}
-#contact_us .form .button button {
-  padding: 0.5rem;
-  background-color: #fe6601;
-  color: #FEFFFE;
-  text-transform: uppercase;
 }
 
 footer .bg_purple {
@@ -792,4 +783,32 @@ footer .copyright {
   text-align: center;
   display: block;
   color: #8c8a8a;
+}
+
+.go_to_top:hover {
+  border: 3px solid #cacaca;
+  background-color: #3f3f3f;
+  cursor: pointer;
+}
+
+.menu_el:hover {
+  background-color: #f7e2c7;
+  cursor: pointer;
+}
+
+.c2a > button:hover {
+  background-color: #FEFFFE;
+  color: #554e9e;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.title_mission > button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn:hover, .socials > .img:hover, .socials > .icon:hover {
+  background-color: #554e9e;
+  cursor: pointer;
 }

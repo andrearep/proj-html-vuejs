@@ -96,3 +96,10 @@ background-color: $secondary_body_bg_color;
     bottom: 20px;
     right: 20px;
 }
+.btn{
+    text-transform: uppercase;
+    background-color: $orange;
+    color: $primary_body_bg_color;
+    padding: 0.7rem;
+    font-weight: 700;
+}
